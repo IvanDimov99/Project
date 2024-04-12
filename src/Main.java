@@ -12,7 +12,7 @@ public class Main {
                 "и пол в формате буквы 'm' или 'f'");
         String input = scanner.nextLine();
 
-        String [] inputData = input.split(" ");
+        String [] inputData = input.split(" "); 
         if(inputData.length != 6){
             System.err.println("Неверное количество данных. Попробуйте снова...");
             return;
